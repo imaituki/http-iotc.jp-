@@ -1,0 +1,2 @@
+66.249.79.157 - - [12/Apr/2020:17:02:09 +0900] "GET /robots.txt HTTP/1.1" 404 208 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+66.249.79.157 - - [12/Apr/2020:17:02:09 +0900] "GET / HTTP/1.1" 403 202 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"

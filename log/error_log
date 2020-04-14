@@ -1,0 +1,6 @@
+[Tue Apr 14 16:11:26 2020] [error] [client 118.21.102.9] (13)Permission denied: Could not open password file: /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/.htpasswd
+[Tue Apr 14 16:11:26 2020] [error] [client 118.21.102.9] access to / failed, reason: verification of user id 'admin' not configured
+[Tue Apr 14 16:11:43 2020] [error] [client 118.21.102.9] (13)Permission denied: Could not open password file: /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/.htpasswd
+[Tue Apr 14 16:11:43 2020] [error] [client 118.21.102.9] access to / failed, reason: verification of user id 'admin' not configured
+[Tue Apr 14 16:11:48 2020] [error] [client 118.21.102.9] (13)Permission denied: Could not open password file: /data/domain/BB0B6DDA-20C6-11EA-8A14-AD6F0C460029/html/.htpasswd
+[Tue Apr 14 16:11:48 2020] [error] [client 118.21.102.9] access to / failed, reason: verification of user id '' not configured
