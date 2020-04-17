@@ -88,7 +88,7 @@ if( empty( $message["ng"] ) ) {
 	$header1 .= "Content-Transfer-Encoding: 7bit\n";
 
 	// お客様へ
-//	$error_flg1 = mb_send_mail( $arr_post["mail"], $mail_conf["user"]["title"], $mail1, $header1 );
+	$error_flg1 = mb_send_mail( $arr_post["mail"], $mail_conf["user"]["title"], $mail1, $header1 );
 
 
 	//----------------------------------------
@@ -101,7 +101,7 @@ if( empty( $message["ng"] ) ) {
 	$header2 .= "Content-Transfer-Encoding: 7bit\n";
 
 	// お客様へ
-//	$error_flg2 = mb_send_mail( $mail_conf["info"]["admin_mail"], $mail_conf["master"]["title"], $mail2, $header2 );
+	$error_flg2 = mb_send_mail( $mail_conf["info"]["admin_mail"], $mail_conf["master"]["title"], $mail2, $header2 );
 
 
 	// 送信チェック

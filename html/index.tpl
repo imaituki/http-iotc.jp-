@@ -14,7 +14,7 @@
 <main>
 <div id="body">
 	<div id="main_image">
-		<div class="unit">
+		<div class="unit _first">
 			<div class="sp_none img_back"><img src="/common/image/contents/top/slide1.jpg" alt="みんなのIoT"></div>
 			<div class="pc_none img_back"><img src="/common/image/contents/top/slide1sp.jpg" alt="みんなのIoT"></div>
 			<div class="text">

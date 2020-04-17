@@ -46,7 +46,7 @@
 				<div class="row no-gutters">
 					<div class="col-xs-6">
 						<ul>
-							<li><a href="/company/" class="fa_b">会社概要</a></li>
+							<li><a href="/about/" class="fa_b">みんなのIoTコンソーシアムとは</a></li>
 							<li><a href="/information/" class="fa_b">お知らせ</a></li>
 							<li><a href="/flow/" class="fa_b">ご相談の流れ</a></li>
 						</ul>

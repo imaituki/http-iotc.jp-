@@ -10,7 +10,7 @@
 #main_image .unit .text { position:absolute; top:0; left:0; width:100%; height:100%; }
 #main_image .unit .center { display:table; height:100%; }
 #main_image .unit .text_in { display:table-cell; }
-#main_image .unit .text_in h1 span{display: inline-block; font-size: 0.5em;}
+#main_image .unit .text_in h1 span{display: inline-block; font-size: 0.6em;}
 #main_image .unit .text_in h1 {font-size: 2.5em; font-weight: bold;}
 #main_image .unit .text_in {  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #fff, 0 0 10px #fff; }
 
@@ -19,19 +19,35 @@
 #main_image .unit .text_in .fast_v span.s3{ font-size: 5em;}
 
 
-@media (max-width: 575px){
-#main_image .unit .text_in h1 {font-size: 2em;}
-}
-	@media (max-width: 767px){
-		#main_image .unit .center { padding-bottom:50px; }
-		#main_image .unit .text_in { vertical-align:bottom; }
-		#main_image .unit .text img { width:74%; }
+	@media (max-width: 1199px){
+		#main_image .unit .text_in .fast_v span.s1 {padding: 15px 50px;}
+		#main_image .unit .text_in .fast_v span.s2 {font-size: 1.5em;}
+		#main_image .unit .text_in .fast_v span.s3 { font-size: 2.5em;}
 	}
+	@media (max-width: 767px){
+		#main_image .unit .text_in {vertical-align: bottom; }
+		#main_image .unit._first .text_in { vertical-align:middle; }
+		#main_image .unit .text img { width:74%; }
+		#main_image .unit._first .text_in h1 { text-align: center;}
+		#main_image .unit .text_in h1 { text-align: left;}
+		#main_image .unit .text_in .fast_v span.s1 {    padding: 30px 20px;}
+	}
+
+	@media (max-width: 575px){
+	#main_image .unit .text_in h1 {font-size: 1.75em;  }
+	#main_image .unit .text_in .fast_v span.s2 {font-size: 1.25em;}
+	#main_image .unit .text_in .fast_v span.s1 {padding: 5px; width: 80%;}
+	#main_image .unit .text_in { padding: 0 15px;}
+	}
+
 	@media (min-width: 768px){
 		#main_image,
 		#main_image .unit { max-height:calc(100vh - 90px); }
 		#main_image .unit .text_in { vertical-align:middle; padding-left: 40px; }
 		#main_image .unit .text img { width:58%; }
+	}
+	@media (min-width: 1250px){
+		#main_image .unit .text_in {  padding-left: 0px; }
 	}
 
 #top_1{}
