@@ -26,7 +26,7 @@
 	}
 	@media (max-width: 767px){
 		#main_image .unit .text_in {vertical-align: bottom; }
-		#main_image .unit._first .text_in { vertical-align:middle; }
+		#main_image .unit._first .text_in { vertical-align:middle; padding: 0 5px;}
 		#main_image .unit .text img { width:74%; }
 		#main_image .unit._first .text_in h1 { text-align: center;}
 		#main_image .unit .text_in h1 { text-align: left;}
