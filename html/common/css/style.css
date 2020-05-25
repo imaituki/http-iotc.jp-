@@ -43,7 +43,7 @@
 	@media (min-width: 768px){
 		#main_image,
 		#main_image .unit { max-height:calc(100vh - 90px); }
-		#main_image .unit .text_in { vertical-align:middle; padding-left: 40px; }
+		#main_image .unit .text_in { vertical-align:middle; padding-left: 50px; }
 		#main_image .unit .text img { width:58%; }
 	}
 	@media (min-width: 1250px){
@@ -53,16 +53,16 @@
 #top_1{}
 .before ,.after {position: relative; padding:30px;}
 .before .text , .after .text{ font-size: 1.5em; font-weight: bold;}
-.before_text ,.after_text{ padding:30px; }
 .before_text .disp_td, .after_text .disp_td{padding: 0 30px; border-radius: 30px;}
 
 @media (max-width: 767px){
-.before_text, .after_text {width: 100%;}
+.before_text, .after_text {width: 100%; margin-bottom: 30px;}
 .before_text .disp_td, .after_text .disp_td {padding: 30px;}
 .before .text, .after .text {font-size: 2em;}
 .strong .ico {padding: 9%!important;}
 }
 @media (min-width: 768px){
+	.before_text ,.after_text{ padding:30px; }
 	.before_text .disp_td::after{ content: " "; display: block; position: absolute; top: 100px; right: -10px; width: 0; height: 0; border-style: solid; border-width: 40px 0 40px 40px; border-color: transparent transparent transparent #FFF; z-index: 2;}
 	.after_text .disp_td::before{
 	content: " "; display: block; position: absolute; top: 100px; width: 0; left: -10px; height: 0; border-top: 40px solid transparent; border-right: 40px solid #FFF; border-bottom: 40px solid transparent}
@@ -74,7 +74,9 @@
 @media (max-width: 796px){
 	.first h2.hl_1 .none{display: none;}
 }
-
+@media (max-width: 767px){
+	.first h2.hl_1{font-size: 1.25em; }
+}
 #top_2{background: #fefbee;}
 .strong .ico{background: #fff; padding: 13%; border-radius: 50%; width: 180px; height: 180px; margin: 0 auto 5%; filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.03)); font-size: 1em;}
 .strong .ico img{width: 100%; height: auto;}
@@ -96,7 +98,11 @@
 	margin-right: 5px;
 }
 @media (max-width: 991px){
-.strong .none{display: none;}
+	.strong .none{display: none;}
+}
+@media (max-width: 767px){
+	.strong h3{font-size: 1.25em; }
+
 }
 
 @-moz-keyframes swing {
@@ -170,13 +176,15 @@
 }
 
 #top_4{background: #fefbee;}
-#top_4 ul{list-style: disc; padding-left: 1em; text-indent: -1em;}
+#top_4 ul{padding-left: 1em; text-indent: -1em;}
 #top_4 p.arrow img{height: 80px;}
 #top_4 .cow, #top_4 .text{display: table;}
 #top_4 .cow p, #top_4 .text .unit{display:table-cell; vertical-align: middle;     font-size: 1.25em;}
 #top_4 .text .unit h3{font-weight: bold; font-size: 1.5em; margin-bottom: 15px;}
 
-
+@media (max-width: 767px){
+	#top_4 .text .unit h3{    font-size: 1.25em;}
+}
 #top_info {}
 .info_unit { position:relative; box-shadow:0 2px 3px #ccc; margin-bottom:20px; }
 .info_unit a { display:table; width:100%; text-decoration:none; color:#444; }
@@ -192,10 +200,19 @@
 	@media (min-width: 576px){
 		.info_unit .photo { width:100px; }
 	}
-	@media (max-width: 768px){
+	@media (max-width: 767px){
 		#top_info .row > .col-sm-6:first-child { margin-bottom:30px; }
 	}
 
+#top_partner a{display: table;width: 100%; background: #f2f2f2; text-align: center;     padding: 15px 50px;}
+
+@media (max-width: 768px){
+	#top_partner a{   padding: 15px;}
+}
+@media (max-width: 575px){
+	#top_partner a{   padding:15px 50px;}
+	#top_partner .sp_mb10{margin-bottom: 10px;}
+}
 /*===================================================================
 	#information
 ===================================================================*/
@@ -349,12 +366,17 @@ body.pc .page_link a:hover { background:#e8f1f1; }
 .hl_1 h2.title._bl:after {content: ''; display: block; margin: 30px 0; width: 100%; height: 3px; border-top: 2px solid #387288; margin-top: 12px; margin-bottom: 9px; border-bottom: 1px solid #387288;}
 .hl_1 h2.sub {font-size: 1.5em; letter-spacing: 0.1em; color: #444;}
 
+@media (max-width: 767px){
+	.hl_1 h2.title{font-size: 1.75em;     line-height: 25px;}
+
+}
+
 .hl_2 { line-height:100%; margin-bottom:50px; }
 .hl_2 > * { vertical-align:middle; }
 .hl_2.c0 .sub { border-color:#fff; }
 	@media (max-width: 767px){
 		.hl_2 > * { display:block; }
-		.hl_2 .main { font-size:2em; line-height:170%; }
+		.hl_2 .main { font-size:1.75em; line-height:170%; }
 	}
 	@media (min-width: 768px){
 		.hl_2 .main { padding-right:15px; font-size:2.5em; }

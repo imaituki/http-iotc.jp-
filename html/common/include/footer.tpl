@@ -40,6 +40,8 @@
 			<h5 class="site_logo"><a class="ov" href="/"><img src="/common/image/foot/logo.png" alt="みんなのIoT"></a></h5>
 			<address>〒{$mst_siteconf.zip} {$mst_siteconf.address}<br>
 				TEL：{$mst_siteconf.tel}　FAX：{$mst_siteconf.fax}</address>
+			<p class="facebook"><a href="https://www.facebook.com/iotc.jp" target="_blank" class="ov">
+				<i class="fab fa-facebook"></i></a></p>
 		</div>
 		<div class="col-sm-6 height-1 disp_tbl">
 			<div id="foot_navi" class="disp_td">

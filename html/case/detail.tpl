@@ -37,7 +37,7 @@
 					<h2 class="title">{$t_case.title}</h2>
 					{if $t_case.image1}
 					<div class="pos_ac {if $t_case.caption1 == NULL}mb50{/if}"><img src="/common/photo/case/image1/l_{$t_case.image1}" alt="{$t_case.title}"></div>
-					{if $t_case.caption1 != NULL}<p class="mb50">キャプション１</p>{/if}
+					{if $t_case.caption1 != NULL}<p class="mb50">{$t_case.caption1}</p>{/if}
 					{/if}
 					<div class="entry mb50">
 						{$t_case.comment}
@@ -48,7 +48,7 @@
 						<div class="col-xs-3 col-6 height-1 mb20">
 							<a class="ov" href="/common/photo/case/image2/l_{$t_case.image2}" rel="lightbox">
 								<div class="img_rect"><img src="/common/photo/case/image2/m_{$t_case.image2}" alt="{$t_case.title}"></div>
-								<p>キャプション2</p>
+									{if $t_case.caption2 != NULL}<p>{$t_case.caption2}</p>{/if}
 							</a>
 						</div>
 						{/if}
@@ -56,7 +56,7 @@
 						<div class="col-xs-3 col-6 height-1 mb20">
 							<a class="ov" href="/common/photo/case/image3/l_{$t_case.image3}" rel="lightbox">
 								<div class="img_rect"><img src="/common/photo/case/image3/m_{$t_case.image3}" alt="{$t_case.title}"></div>
-								<p>キャプション3</p>
+									{if $t_case.caption3 != NULL}<p>{$t_case.caption3}</p>{/if}
 							</a>
 						</div>
 						{/if}
@@ -64,7 +64,7 @@
 						<div class="col-xs-3 col-6 height-1 mb20">
 							<a class="ov" href="/common/photo/case/image4/l_{$t_case.image4}" rel="lightbox">
 								<div class="img_rect"><img src="/common/photo/case/image4/m_{$t_case.image4}" alt="{$t_case.title}"></div>
-								<p>キャプション4</p>
+									{if $t_case.caption4 != NULL}<p>{$t_case.caption4}</p>{/if}
 							</a>
 						</div>
 						{/if}
@@ -72,7 +72,7 @@
 						<div class="col-xs-3 col-6 height-1 mb20">
 							<a class="ov" href="/common/photo/case/image5/l_{$t_case.image5}" rel="lightbox">
 								<div class="img_rect"><img src="/common/photo/case/image5/m_{$t_case.image5}" alt="{$t_case.title}"></div>
-								<p>キャプション5</p>
+									{if $t_case.caption5 != NULL}<p>{$t_case.caption5}</p>{/if}
 							</a>
 						</div>
 						{/if}
